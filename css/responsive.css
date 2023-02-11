@@ -43,11 +43,13 @@
     left: 0;
     top: 0;
     transform: scale(1.7);
+
   }
 
 
   .hero_area {
     height: auto;
+    min-height: 10rem;
   }
   .hero_area2 {
     height: auto;
