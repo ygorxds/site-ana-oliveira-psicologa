@@ -795,6 +795,14 @@ align-items: center;
 
   
 }
+.btn-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+}
+
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
