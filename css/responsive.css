@@ -60,6 +60,7 @@
   .slider_detail-box {
     margin-top: 5rem;
     margin-bottom: 45px;
+    text-align: justify;
   }
 
   .slider_img-box {
@@ -108,6 +109,57 @@
     z-index: 1;
     position: relative;
   }
+
+  .welcome_section .img-box img {
+    width: 75%;
+    margin-top: 15rem;
+  }
+  .welcome_section {
+    text-align: justify;
+    margin-left: 2rem;
+    margin-top: 5rem;
+  }
+  
+  .welcome_section .img-box {
+  
+  }
+  
+  
+  .welcome_section .detail-box {
+    margin-top: 10px;
+  }
+  
+  .welcome_section .detail-box a {
+    display: inline-block;
+    padding: 12px 40px;
+    background-color: #feb543;
+    color: #f9fcfb;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 2px 7px 0px rgba(32, 50, 117, 0.26);
+    box-shadow: 0px 2px 7px 0px rgba(32, 50, 117, 0.26);
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    border: none;
+    margin-top: 45px;
+  }
+  
+  .welcome_section .detail-box a:hover {
+    -webkit-transform: translateY(-7px);
+            transform: translateY(-7px);
+  }
+  
+  .layout_padding2 {
+    flex-direction: column; /* altera a direção para exibir a imagem acima do texto */
+    gap: 10px; /* ajusta o espaçamento entre a imagem e o texto */
+    height: 65rem;
+  }
+  
+  .img-box,
+  .detail-box {
+    flex: 1; /* ocupa todo o espaço disponível na largura do dispositivo */
+    text-align: center; /* centraliza o texto no celular */
+  }
+}
 
   .slider_img-box {
     position: relative;
@@ -159,7 +211,7 @@
     margin-bottom: 35px;
   }
 
-}
+
 
 @media (max-width: 576px) {
 
