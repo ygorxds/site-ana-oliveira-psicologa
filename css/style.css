@@ -319,6 +319,11 @@ a:focus {
   margin-left: 2rem;
 }
 
+.welcome_section {
+  text-align: justify;
+  margin-left: 2rem;
+}
+
 
 .welcome_section .img-box {
   width: 90%;
@@ -334,6 +339,11 @@ a:focus {
 .welcome_section .detail-box {
   margin-top: -250px;
 }
+.welcome_section .detail-box1 {
+  margin-top: -250px;
+  margin-right: 20rem;
+}
+
 
 .welcome_section .detail-box a {
   display: inline-block;
@@ -347,6 +357,7 @@ a:focus {
   transition: all .3s;
   border: none;
   margin-top: 45px;
+  text-align: justify;
 }
 
 .welcome_section .detail-box a:hover {
@@ -403,7 +414,7 @@ a:focus {
   border-radius: 18px;
   overflow: hidden;
   display: inline-block;
-}
+  }
 
 .service_section .service_container .service_box .img-box img {
   width: 100%;
@@ -413,11 +424,13 @@ a:focus {
 .service_section .service_container .service_box .detail-box {
   margin-top: 30px;
   display: inline-block;
+  text-align: justify;
 }
 
 .service_section .service_container .service_box .detail-box h4 {
   font-weight: bold;
   display: inline-block;
+  text-align: justify;
 }
 
 .service_section a {
@@ -432,6 +445,7 @@ a:focus {
   transition: all .3s;
   border: none;
   display: inline-block;
+  text-align: justify;
 }
 
 
@@ -462,6 +476,7 @@ a:focus {
 
 .problem_section .detail-box {
   margin-top: 45px;
+  text-align: justify;
 }
 
 .problem_section .detail-box a {
@@ -476,6 +491,7 @@ a:focus {
   transition: all .3s;
   border: none;
   margin-top: 45px;
+  text-align: justify;
 }
 
 .problem_section .detail-box a:hover {
@@ -571,6 +587,7 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 30px;
+  text-align: justify;
 }
 
 .client_container .detail-box .img-box {
@@ -579,25 +596,31 @@ a:focus {
   border: 10px solid #9852f2;
   border-radius: 100%;
   overflow: hidden;
+  text-align: justify;
 }
 
 .client_container .detail-box .img-box img {
   width: 100%;
+  text-align: justify;
 }
 
 .client_container .detail-box .name h5 {
   margin: 0;
+  text-align: justify;
 }
 
 .client_container .detail-box .name p {
   text-transform: uppercase;
   color: #0b93b1;
   margin: 0;
+  text-align: justify;
 }
 
 .contact_section .contact_heading {
   text-align: center;
   margin-bottom: 45px;
+
+  
 }
 
 .contact_section .contact_heading h2 {

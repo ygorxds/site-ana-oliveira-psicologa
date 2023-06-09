@@ -39,6 +39,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
   }
 
   .service_box .img-box {
@@ -47,11 +48,13 @@
 
   .service_box .detail-box {
     flex-basis: 45%;
+    text-align: justify;
   }
 
   .service_box h4,
   .service_box p {
     margin-top: 2rem;
+    margin-left: ;
   }
 
   .service_box {
@@ -62,10 +65,12 @@
 
   .service_box .img-box {
     flex-basis: 45%;
+    margin-left: 10rem;
   }
 
   .service_box .detail-box {
     flex-basis: 45%;
+    text-align: justify;
   }
 
   .service_box h4,
@@ -121,4 +126,5 @@
   #nextBtn {
     margin-left: 10px;
   }
+  
   
