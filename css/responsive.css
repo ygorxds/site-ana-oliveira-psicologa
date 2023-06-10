@@ -142,6 +142,9 @@
     border: none;
     margin-top: 45px;
   }
+  .space{
+    margin-top: 10rem;
+  }
   
   .welcome_section .detail-box a:hover {
     -webkit-transform: translateY(-7px);
@@ -153,13 +156,32 @@
     gap: 10px; /* ajusta o espaçamento entre a imagem e o texto */
     height: 65rem;
   }
+  .layout_padding3 {
+    flex-direction: column; /* altera a direção para exibir a imagem acima do texto */
+    gap: 10px; /* ajusta o espaçamento entre a imagem e o texto */
+    height: 45rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
+  }
+  .layout_padding3-top {
+    padding-top: 10px;
+  }
+  
+  .layout_padding3-bottom {
+    padding-bottom: 10px;
+  }
+
+ 
+  
+  
   
   .img-box,
   .detail-box {
-    flex: 1; /* ocupa todo o espaço disponível na largura do dispositivo */
+    flex: 0; /* ocupa todo o espaço disponível na largura do dispositivo */
     text-align: justify;; /* centraliza o texto no celular */
-    margin-right: 3rem;
-    margin-left: 3rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
   }
 }
 

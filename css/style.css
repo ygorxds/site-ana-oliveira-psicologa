@@ -16,6 +16,7 @@ body {
   height: 40rem;
 }
 
+
 .layout_padding2-top {
   padding-top: 45px;
 }
@@ -23,6 +24,28 @@ body {
 .layout_padding2-bottom {
   padding-bottom: 45px;
 }
+
+.layout_padding3 {
+  padding: 45px 0;
+  display: flex; 
+  align-items: center; 
+  gap: 200px;
+  height: 30rem;
+ margin-right: 10rem;
+ margin-top: 5rem;
+ margin-left: 10rem;
+
+}
+
+.layout_padding3-top {
+  padding-top: 45px;
+}
+
+.layout_padding3-bottom {
+  padding-bottom: 45px;
+}
+
+
 
 .layout_padding-top {
   padding-top: 75px;
@@ -863,6 +886,17 @@ align-items: center;
   margin-top: 5px;
 }
 
+.service_box {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+}
+
+.img-box {
+  margin-right: 1rem; /* Espaçamento entre a imagem e o texto */
+}
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
