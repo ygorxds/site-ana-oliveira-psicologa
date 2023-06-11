@@ -25,3 +25,25 @@ document.getElementById('nextBtn').addEventListener('click', function() {
 document.getElementById('prevBtn').addEventListener('click', function() {
   showSlide(currentSlide - 1);
 });
+
+// faz a rolagem da pagina.
+
+const sobreLink = document.querySelector('a[href="#sobre"]');
+
+// Manipulador de evento de clique
+sobreLink.addEventListener('click', (event) => {
+  event.preventDefault(); // Evita o comportamento padrão do link
+  
+  const section = document.querySelector('#sobre');
+  section.scrollIntoView({ behavior: 'smooth' }); // Rolagem suave até a seção
+});
+
+const tratamentoLink = document.querySelector('a[href="#tratamento"]');
+
+// Manipulador de evento de clique
+tratamentoLink.addEventListener('click', (event) => {
+  event.preventDefault(); // Evita o comportamento padrão do link
+  
+  const section = document.querySelector('#tratamento');
+  section.scrollIntoView({ behavior: 'smooth' }); // Rolagem suave até a seção
+});

@@ -33,7 +33,7 @@ body {
   height: 30rem;
  margin-right: 10rem;
  margin-top: 5rem;
- margin-left: 10rem;
+ margin-left: 5rem;
 
 }
 
@@ -134,6 +134,7 @@ body {
   color: #f9fcfb;
   text-align: center;
   text-transform: uppercase;
+  margin-top: 4rem;
 }
 
 a,
