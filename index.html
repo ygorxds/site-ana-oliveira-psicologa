@@ -4,7 +4,8 @@
 <head>
   <meta charset="utf-8" />
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11117654969"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-11117654969'); </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11117654969"></script>
+  <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-11117654969'); </script>
 
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -32,14 +33,17 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
-  <link rel="stylesheet" href= "/css/carrocel.css">
+  <link rel="stylesheet" href="/css/carrocel.css">
 </head>
 
 <body>
 
-  <button id="whatsapp-button" onclick="openWhatsApp()"
-    style=" position: fixed; bottom: 20px;right: 20px;z-index: 9999;"><img src="images/whatsapp-logo-1-1.png" alt=""
-      srcset=""></button>
+  <button id="whatsapp-button" onclick="openWhatsApp(); trackWhatsAppClick();"
+  style="position: fixed; bottom: 20px; right: 20px; z-index: 9999;">
+  <img src="images/whatsapp-logo-1-1.png" alt="" srcset="">
+</button>
+
+
   <div class="hero_area">
     <!-- header section strats -->
     <header class="header_section">
@@ -95,7 +99,7 @@
                 <div class="col-lg-5 col-md-6">
                   <div class="slider_detail-box">
                     <h1>
-                      Terapia Online<br/>
+                      Terapia Online<br />
                     </h1>
 
                     <p>
@@ -109,11 +113,11 @@
 
 
                     </p>
-                    <div class="btn-box">
-                      <a href="https://wa.me/5521978788006" class="btn-1">
-                        <b>Agendar Horário</b>
-                      </a>
-                    </div>
+                    <button id="whatsapp-button" onclick="openWhatsApp(); trackWhatsAppClick();"
+                    style="position: fixed; bottom: 20px; right: 20px; z-index: 9999;">
+                    <img src="images/whatsapp-logo-1-1.png" alt="whatsapp icon" srcset="whatsapp icon png">
+                  </button>
+
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -140,7 +144,7 @@
       </div>
       <div class="layout_padding2">
         <div class="img-box">
-          <img src="images/welcome.png" alt=""/>
+          <img src="images/welcome.png" alt="" />
         </div>
         <div class="detail-box">
           <p>
@@ -159,15 +163,15 @@
           </div>
         </div>
       </div>
-      
+
 
     </div>
   </section>
   <!-- end welcome section -->
 
   <div class="space">
-  <h1 style="background-color: #6f42c1; color:#6f42c1">aaaaaaaaaaaa</h1>
-</div>
+    <h1 style="background-color: #6f42c1; color:#6f42c1">aaaaaaaaaaaa</h1>
+  </div>
   <!-- service section -->
 
   <section class="welcome_section layout_padding" id="tratamento">
@@ -179,75 +183,101 @@
       </div>
       <div class="layout_padding3">
         <div class="img-box">
-          <img src="images/tratamento.png" alt=""/>
+          <img src="images/tratamento.png" alt="" />
         </div>
         <div class="detail-box">
           <h4>
             Tratamentos oferecidos na clínica
           </h4>
-      
-          <p>
-            Acompanhamento psicológico; Tratamento de ansiedade; Tratamento para transtorno de ansiedade generalizada; Tratamento para crises de ansiedade; Tratamento para fobia social; Tratamento para síndrome do pânico; Tratamento para traumas emocionais. 
 
-Veja como funciona cada um deles abaixo. 
+          <p>
+            Acompanhamento psicológico; Tratamento de ansiedade; Tratamento para transtorno de ansiedade generalizada;
+            Tratamento para crises de ansiedade; Tratamento para fobia social; Tratamento para síndrome do pânico;
+            Tratamento para traumas emocionais.
+
+            Veja como funciona cada um deles abaixo.
 
           </p>
 
         </div>
       </div>
-      
-      
-    </section>        
+
+
+  </section>
+  </div>
+  <div class="body-carrocel">
+    <div class="custom-carousel">
+      <div class="custom-slide custom-active" id="slide1">
+        <h2>Acompanhamento psicológico</h2>
+        <p>O objetivo principal é explorar o inconsciente do paciente e promover o autoconhecimento, possibilitando uma
+          transformação pessoal. O paciente é encorajado a falar livremente, sem censura ou filtro, sobre seus
+          pensamentos, sentimentos, desejos e memórias. A ideia é permitir que conteúdos inconscientes venham à tona,
+          revelando padrões, conflitos e desejos ocultos.
+        </p>
+      </div>
+      <div class="custom-slide" id="slide2">
+        <h2>Tratamento para Ansiedade</h2>
+        <p>No tratamento da ansiedade, é necessário identificar as defesas psíquicas inconscientes, pois desempenham um
+          papel importante na manifestação da ansiedade. O tratamento ajuda o paciente a identificar e explorar as
+          defesas utilizadas para evitar ou lidar com a ansiedade. Isso pode incluir mecanismos de defesa como negação,
+          repressão ou projeção. Durante as sessões, o paciente é encorajado a praticar a associação livre, expressando
+          livremente pensamentos, sentimentos e memórias sem censura.
+        </p>
+      </div>
+      <div class="custom-slide" id="slide3">
+        <h2>Tratamento para Transtorno de Ansiedade Generalizada</h2>
+        <p>O Transtorno de Ansiedade Generalizada (TAG) caracteriza-se por uma ansiedade excessiva e preocupação
+          constante com uma variedade de situações ou eventos. O tratamento para transtorno de ansiedade generalizada
+          busca compreender as causas inconscientes dos sintomas, em que momento aparecem, qual o padrão de repetição
+          deles e quais fatores estão associados.
+        </p>
+      </div>
+      <div class="custom-slide" id="slide4">
+        <h2>Tratamento para Crises de Ansiedade</h2>
+        <p>Irei investigar as possíveis causas inconscientes das crises de ansiedade. Isso pode envolver a análise da
+          história pessoal do paciente, traumas passados, conflitos não resolvidos e relações interpessoais
+          significativas. A compreensão desses elementos irá identificar os gatilhos, padrões subjacentes às crises de
+          ansiedade e irá trazer à tona conteúdos inconscientes que podem estar contribuindo para a intensidade e a
+          recorrência das crises.
+        </p>
+      </div>
+      <div class="custom-slide" id="slide5">
+        <h2>Tratamento para fobia social</h2>
+        <p>O tratamento da fobia social envolve uma exploração profunda dos conflitos inconscientes e das dinâmicas
+          psicológicas que contribuem para o desenvolvimento e a manutenção da fobia. Inicialmente busco compreender as
+          origens da fobia social na história de vida do paciente. Isso pode incluir a investigação de experiências
+          traumáticas, eventos significativos ou dinâmicas familiares que tenham influenciado o desenvolvimento da
+          fobia.
+        </p>
+      </div>
+      <div class="custom-slide" id="slide6">
+        <h2>Tratamento para Síndrome do Pânico</h2>
+        <p>O tratamento da síndrome do pânico envolve a exploração dos aspectos inconscientes e das dinâmicas
+          psicológicas que contribuem para o desenvolvimento e a manutenção dos ataques de pânico. A síndrome do pânico
+          é caracterizada por ataques de pânico recorrentes, acompanhados de sintomas físicos e emocionais intensos.
+          Esses sintomas são analisados em relação às causas subjacentes e aos conflitos emocionais do paciente.
+        </p>
+      </div>
+      <div class="custom-slide" id="slide7">
+        <h2>Tratamento para Traumas emocionais</h2>
+        <p>O tratamento de traumas emocionais na psicanálise envolve uma abordagem cuidadosa e aprofundada, buscando
+          compreender as causas e os efeitos psicológicos dos eventos traumáticos na vida do paciente. É essencial que o
+          paciente se sinta seguro e confiante. Para isso ofereço um ambiente acolhedor, de escuta atenta e livre de
+          julgamentos, para que o paciente possa compartilhar suas experiências traumáticas de forma gradual.
+        </p>
+      </div>
+
     </div>
-            <div class="body-carrocel">
-            <div class="custom-carousel">
-              <div class="custom-slide custom-active" id="slide1">
-                <h2>Acompanhamento psicológico</h2>
-                <p>O objetivo principal é explorar o inconsciente do paciente e promover o autoconhecimento, possibilitando uma transformação pessoal. O paciente é encorajado a falar livremente, sem censura ou filtro, sobre seus pensamentos, sentimentos, desejos e memórias. A ideia é permitir que conteúdos inconscientes venham à tona, revelando padrões, conflitos e desejos ocultos.
-                </p>
-              </div>
-              <div class="custom-slide" id="slide2">
-                <h2>Tratamento para Ansiedade</h2>
-                <p>No tratamento da ansiedade, é necessário identificar as defesas psíquicas inconscientes, pois desempenham um papel importante na manifestação da ansiedade. O tratamento ajuda o paciente a identificar e explorar as defesas utilizadas para evitar ou lidar com a ansiedade. Isso pode incluir mecanismos de defesa como negação, repressão ou projeção. Durante as sessões, o paciente é encorajado a praticar a associação livre, expressando livremente pensamentos, sentimentos e memórias sem censura.
-                </p>
-              </div>
-              <div class="custom-slide" id="slide3">
-                <h2>Tratamento para Transtorno de Ansiedade Generalizada</h2>
-                <p>O Transtorno de Ansiedade Generalizada (TAG) caracteriza-se por uma ansiedade excessiva e preocupação constante com uma variedade de situações ou eventos. O tratamento para transtorno de ansiedade generalizada busca compreender as causas inconscientes dos sintomas, em que momento aparecem, qual o padrão de repetição deles e quais fatores estão associados. 
-                </p>
-              </div>
-              <div class="custom-slide" id="slide4">
-                <h2>Tratamento para Crises de Ansiedade</h2>
-                <p>Irei investigar as possíveis causas inconscientes das crises de ansiedade. Isso pode envolver a análise da história pessoal do paciente, traumas passados, conflitos não resolvidos e relações interpessoais significativas. A compreensão desses elementos irá identificar os gatilhos, padrões subjacentes às crises de ansiedade e irá trazer à tona conteúdos inconscientes que podem estar contribuindo para a intensidade e a recorrência das crises. 
-                </p>
-              </div>
-              <div class="custom-slide" id="slide5">
-                <h2>Tratamento para fobia social</h2>
-                <p>O tratamento da fobia social envolve uma exploração profunda dos conflitos inconscientes e das dinâmicas psicológicas que contribuem para o desenvolvimento e a manutenção da fobia. Inicialmente busco compreender as origens da fobia social na história de vida do paciente. Isso pode incluir a investigação de experiências traumáticas, eventos significativos ou dinâmicas familiares que tenham influenciado o desenvolvimento da fobia.
-                </p>
-              </div>
-              <div class="custom-slide" id="slide6">
-                <h2>Tratamento para Síndrome do Pânico</h2>
-                <p>O tratamento da síndrome do pânico envolve a exploração dos aspectos inconscientes e das dinâmicas psicológicas que contribuem para o desenvolvimento e a manutenção dos ataques de pânico. A síndrome do pânico é caracterizada por ataques de pânico recorrentes, acompanhados de sintomas físicos e emocionais intensos. Esses sintomas são analisados em relação às causas subjacentes e aos conflitos emocionais do paciente.
-                </p>
-              </div>
-              <div class="custom-slide" id="slide7">
-                <h2>Tratamento para Traumas emocionais</h2>
-                <p>O tratamento de traumas emocionais na psicanálise envolve uma abordagem cuidadosa e aprofundada, buscando compreender as causas e os efeitos psicológicos dos eventos traumáticos na vida do paciente. É essencial que o paciente se sinta seguro e confiante. Para isso ofereço um ambiente acolhedor, de escuta atenta e livre de julgamentos, para que o paciente possa compartilhar suas experiências traumáticas de forma gradual. 
-                </p>
-              </div>
-              
-            </div>
-          
-         
-            
-            
-            <div class="custom-arrow custom-arrow-left" id="prevBtn">&lt;</div>
-            <div class="custom-arrow custom-arrow-right" id="nextBtn">&gt;</div>
-            
-          </div>
-        </div> 
-  
+
+
+
+
+    <div class="custom-arrow custom-arrow-left" id="prevBtn">&lt;</div>
+    <div class="custom-arrow custom-arrow-right" id="nextBtn">&gt;</div>
+
+  </div>
+  </div>
+
 
 
   <section class="contact_section layout_padding">
@@ -314,11 +344,23 @@ Veja como funciona cada um deles abaixo.
     <!-- footer section -->
   </div>
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11117654969"></script> 
-  <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-11117654969'); </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11117654969"></script>
+  <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-11117654969'); </script>
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script src="js/script.js"></script>
+  <script>
+
+    function trackWhatsAppClick() {
+      gtag('event', 'conversion', {
+        'send_to': 'AW-11117654969/abcdefg', // Replace 'abcdefg' with the conversion ID for WhatsApp clicks (if available).
+        'event_category': 'WhatsApp Click',
+        'event_label': 'WhatsApp Button Clicked'
+      });
+    }
+
+
+  </script>
 
 
 

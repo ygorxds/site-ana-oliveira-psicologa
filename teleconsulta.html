@@ -35,7 +35,7 @@
 
 <body>
 
-  <button id="whatsapp-button" onclick="openWhatsApp()"
+  <button id="whatsapp-button" onclick="openWhatsApp()" onclick="trackWhatsAppClick()"
     style=" position: fixed; bottom: 20px;right: 20px;z-index: 9999;"><img src="images/whatsapp-logo-1-1.png" alt=""
       srcset=""></button>
   <div class="hero_area">
@@ -93,7 +93,7 @@
                     </p>
 
                     <div class="btn-box">
-                      <a href="https://wa.me/5521978788006" class="btn-1">
+                      <a href="https://wa.me/5521978788006" class="btn-1" onclick="trackWhatsAppClick();">
                         <b>Agende aqui!</b>
                       </a>
                     </div>
@@ -139,9 +139,9 @@ Pronto para agendar seu primeiro atendimento?
 
           </p>
           <div>
-            <a href="https://wa.me/5521978788006">
+            <a href="https://wa.me/5521978788006" onclick="trackAgendeAquiClick();">
               Agende aqui
-            </a>
+            </a>            
           </div>
         </div>
       </div>
@@ -197,6 +197,16 @@ Pronto para agendar seu primeiro atendimento?
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script src="js/script.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11117654969"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-11117654969'); </script>
+
+  <script>
+    function trackWhatsAppClick() {
+      gtag('event', 'conversion', {
+        'send_to': 'AW-11117654969/abcdefg', // Replace 'abcdefg' with the conversion ID for WhatsApp clicks (if available).
+        'event_category': 'WhatsApp Click',
+        'event_label': 'WhatsApp Button Clicked'
+      });
+    }
+  </script>
 
 
 </body>
